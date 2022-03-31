@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <style>
+    @media print {
+      .question-author {
+        background-color: #f3f4f5 !important;
+        -webkit-print-color-adjust: exact;
+      }
+      .title {
+        color: #849298 !important;
+        -webkit-print-color-adjust: exact;
+      }
+      .subtitle {
+        color: #152f3b !important;
+        -webkit-print-color-adjust: exact;
+      }
+      .footer {
+        position: fixed;
+        bottom: 0;
+      }
+    }
+    body {
+      font-family: "Poppins";
+      width: 21cm;
+    }
+    img {
+      width: 47px;
+      height: 62px;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 50px;
+    }
+    .header-right {
+      display: inline-flex;
+      font-size: 16px;
+      font-weight: 600;
+    }
+    .card {
+      border: 1px solid #bcc3c7;
+      border-radius: 8px;
+      padding: 35px;
+      margin-bottom: 50px;
+    }
+    .control {
+      border: 1px solid #bcc3c7;
+      border-radius: 8px;
+      margin-bottom: 30px;
+    }
+    .align {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .align-bottom {
+      margin-top: 20px;
+    }
+    .width {
+      min-width: 150px;
+      margin-left: 20px;
+    }
+    .title {
+      color: #849298;
+      font-size: 10px;
+    }
+    .subtitle {
+      color: #152f3b;
+      font-size: 14px;
+    }
+    .control-title {
+      font-size: 12px;
+      font-weight: 600;
+    }
+    .control-img {
+      width: 24px;
+      margin-right: 5px;
+    }
+    .control-header {
+      display: flex;
+      align-items: center;
+      margin-left: 20px;
+    }
+    .question {
+      margin-left: 40px;
+      display: flex;
+      align-items: center;
+      margin-bottom: 5px;
+      min-width: 250px;
+    }
+    .question-img {
+      width: 16px;
+      margin-right: 10px;
+      height: 16px;
+    }
+    .question-title {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    .question-author {
+      font-size: 12px;
+      background: #f3f4f5;
+      padding: 0 8px 0 8px;
+      border-radius: 5px;
+    }
+    .question-section {
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: 20px;
+    }
+    .img-footer {
+      width: 80px !important;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <div>
+        <img
+          class="box"
+          id="logo-sowell"
+          src="http://fakeimg.pl/200x200"
+          alt="logo-client"
+        />
+      </div>
+      <div class="header-right">Contrôle n° 252970</div>
+    </div>
+    <div class="card">
+      <div class="align">
+        <div class="width">
+          <div class="title">AGENCE</div>
+          <div class="subtitle">Agence</div>
+        </div>
+        <div class="width">
+          <div class="title">RESIDENCE</div>
+          <div class="subtitle">Résidence du Bois</div>
+        </div>
+        <div class="width">
+          <div class="title">ADRESSE</div>
+          <div class="subtitle">1 RUE DE PARIS</div>
+        </div>
+      </div>
+      <div class="align align-bottom">
+        <div class="width">
+          <div class="title">LOCALISATION</div>
+          <div class="subtitle">Abords</div>
+        </div>
+        <div class="width">
+          <div class="title">SIGNALEE PAR</div>
+          <div class="subtitle">icf SoWell</div>
+        </div>
+        <div class="width">
+          <div class="title">LE</div>
+          <div class="subtitle">23-Fév-2022 à 11:23</div>
+        </div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="control-header">
+        <img class="control-img" src="./hall-entree.svg" alt="" />
+        <div class="control-title">Hall d’entrée</div>
+      </div>
+      <div class="question-section">
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Boites aux lettres</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Miroirs</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Luminaires</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Sols/Grilles/Tapis</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Tableaux d'affichage</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Points de contact</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="control-header">
+        <img class="control-img" src="./hall-entree.svg" alt="" />
+        <div class="control-title">Hall d’entrée</div>
+      </div>
+      <div class="question-section">
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Boites aux lettres</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Miroirs</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Luminaires</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Sols/Grilles/Tapis</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Tableaux d'affichage</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Points de contact</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+      </div>
+    </div>
+    <div class="control">
+      <div class="control-header">
+        <img class="control-img" src="./hall-entree.svg" alt="" />
+        <div class="control-title">Hall d’entrée</div>
+      </div>
+      <div class="question-section">
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Boites aux lettres</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Miroirs</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Luminaires</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Sols/Grilles/Tapis</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Tableaux d'affichage</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Points de contact</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+        <div class="question">
+          <img class="question-img" src="./un-check.svg" alt="" />
+          <div class="question-title">Portes/Vitrages</div>
+          <div class="question-author">Locataire</div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <img class="img-footer" src="./sowellLogo.svg" alt="" />
+    </div>
+  </body>
+</html>

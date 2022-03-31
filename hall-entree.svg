@@ -1,0 +1,13 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Hall-entree">
+<rect id="Rectangle 1313" x="6.5" y="2.5" width="12" height="15" rx="0.5" stroke="#1261D7"/>
+<line id="Line 2" x1="12.5" y1="2" x2="12.5" y2="18" stroke="#1261D7"/>
+<path id="Line 3" d="M18.5 20H6.5L5 22H20L18.5 20Z" stroke="#1261D7" stroke-linecap="round" stroke-linejoin="round"/>
+<rect id="Rectangle 1330" x="14" y="4" width="3" height="6" rx="0.5" fill="#40C4FF"/>
+<rect id="Rectangle 1332" x="8" y="14" width="3" height="2" rx="0.5" fill="#40C4FF"/>
+<rect id="Rectangle 1334" x="14" y="14" width="3" height="2" rx="0.5" fill="#40C4FF"/>
+<rect id="Rectangle 1331" x="8" y="4" width="3" height="6" rx="0.5" fill="#40C4FF"/>
+<rect id="Rectangle 1333" x="8" y="11" width="3" height="2" rx="0.5" fill="#40C4FF"/>
+<rect id="Rectangle 1335" x="14" y="11" width="3" height="2" rx="0.5" fill="#40C4FF"/>
+</g>
+</svg>
